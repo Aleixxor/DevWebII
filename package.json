@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "setProxy": "npm config set proxy http://192.168.113.8:3128"
   },
   "author": "Alex Abreu Louzada",
   "license": "ISC",
